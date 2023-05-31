@@ -8,6 +8,8 @@
 
 
 ### Author: David Wolber (wolber@usfca.edu), using sample of Hal Abelson
+import sys
+sys.path.insert(0, 'google_appengine')
 
 import logging
 from cgi import escape
